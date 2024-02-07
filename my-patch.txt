@@ -1,0 +1,40 @@
+Return-Path: <liamgibson@u.boisestate.edu>
+Received: from codespaces-416371.gqrz4c1lcivepnqgec4ozkycnf.xx.internal.cloudapp.net ([20.29.223.39])
+        by smtp.gmail.com with ESMTPSA id fm2-20020a056a002f8200b006e035133b72sm357379pfb.134.2024.02.06.20.25.53
+        for <LiamGibson@u.boisestate.edu>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Tue, 06 Feb 2024 20:25:53 -0800 (PST)
+From: Liam Gibson <liamgibson@u.boisestate.edu>
+X-Google-Original-From: Liam Gibson <LiamGibson@u.boisestate.edu>
+To: LiamGibson@u.boisestate.edu
+Subject: [PATCH] Submit project
+Date: Wed,
+  7 Feb 2024 04:25:48 +0000
+Message-ID: <20240207042548.9342-1-LiamGibson@u.boisestate.edu>
+X-Mailer: git-send-email 2.43.0
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+
+---
+ my-name.txt  | 1 +
+ the-date.txt | 1 +
+ 2 files changed, 2 insertions(+)
+ create mode 100644 my-name.txt
+ create mode 100644 the-date.txt
+
+diff --git a/my-name.txt b/my-name.txt
+new file mode 100644
+index 0000000..4ec1eea
+--- /dev/null
++++ b/my-name.txt
+@@ -0,0 +1 @@
++My name
+diff --git a/the-date.txt b/the-date.txt
+new file mode 100644
+index 0000000..449df24
+--- /dev/null
++++ b/the-date.txt
+@@ -0,0 +1 @@
++Wed Feb  7 04:19:48 UTC 2024
+-- 
+2.43.0
